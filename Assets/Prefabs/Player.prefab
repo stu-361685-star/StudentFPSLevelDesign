@@ -497,7 +497,7 @@ MonoBehaviour:
   range: 100
   hitMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   stickerPrefab: {fileID: 5115060657782514083, guid: f6ca98d3746f205478cc70141f533645, type: 3}
   firePoint: {fileID: 8166816226500801626}
   noiseRadius: 12
@@ -597,7 +597,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 484948e34d7cc1546a7d7508cafbde6d, type: 3}
   m_Resource: {fileID: 8300000, guid: 484948e34d7cc1546a7d7508cafbde6d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -796,6 +796,8 @@ MonoBehaviour:
   damageBar: {fileID: 572874514653118273}
   damageDelay: 0.15
   damageDrainSpeed: 1.5
+  activeScene:
+    m_Handle: 0
 --- !u!114 &1229743387841817376
 MonoBehaviour:
   m_ObjectHideFlags: 0
